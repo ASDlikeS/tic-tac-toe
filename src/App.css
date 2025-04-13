@@ -1,0 +1,79 @@
+.game {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.counts {
+  display: flex;
+  font-size: 15px;
+  min-width: 800px;
+  justify-content: space-around;
+  background-color: bisque;
+  border-radius: 100vh;
+}
+
+.counts_h {
+  display: flex;
+  text-align: center;
+  border: 1px solid wheat;
+  background-color: aqua;
+}
+
+button {
+  width: 100px;
+  height: 100px;
+  font-size: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 25px;
+}
+
+button.x {
+  color: greenyellow;
+}
+
+button.o {
+  color: rgb(222, 42, 10);
+}
+
+.boxes {
+  display: flex;
+  flex-flow: row wrap;
+  max-width: 310px;
+  margin-bottom: 150px;
+}
+
+p {
+  margin-left: 15px;
+  font-size: 80px;
+  padding-bottom: 10px;
+}
+p.x {
+  color: rgb(39, 207, 17);
+}
+p.o {
+  color: rgb(207, 17, 17);
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+  max-height: 100px;
+}
+
+.reset {
+  font-size: 25px;
+  padding-top: 20px;
+  width: 150px;
+}
